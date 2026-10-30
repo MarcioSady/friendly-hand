@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Friendly Hand – Mão Amiga</title>
+  <meta name="description" content="Friendly Hand – Mão Amiga: levando esperança, educação, saúde e amor à África e à Amazônia há mais de duas décadas.">
+  <link rel="icon" href="assets/img/logo.jpg">
+  <meta property="og:title" content="Friendly Hand – Mão Amiga">
+  <meta property="og:description" content="Levando esperança à África e à Amazônia.">
+  <meta property="og:image" content="assets/img/barco.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Ícones -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.1 0 3.5 1.2 4.3 2.4.8-1.2 2.2-2.4 4.3-2.4 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></symbol>
+    <symbol id="i-school" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3.5 7 3.5s7-1.8 7-3.5v-3.8l-7 3.8-7-3.8z" fill="currentColor"/></symbol>
+    <symbol id="i-clinic" viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13h-7v-5h-4v5H3zm7.5-12v2h-2v2h2v2h3v-2h2v-2h-2V9h-3z" fill="currentColor"/></symbol>
+    <symbol id="i-boat" viewBox="0 0 24 24"><path d="M6 6h8l2 4h4l-2 6H4L2 10h4V6zm2 2v2h2V8H8zm4 0v2h2V8h-2zM2 19c1.5 0 2.5-1 3.5-1s2 1 3.5 1 2.5-1 3.5-1 2 1 3.5 1 2.5-1 3.5-1 1.5.5 2.5 1v2c-1 0-1.5-1-2.5-1s-2 1-3.5 1-2.5-1-3.5-1-2 1-3.5 1-2.5-1-3.5-1-2 1-3.5 1v-2z" fill="currentColor"/></symbol>
+    <symbol id="i-food" viewBox="0 0 24 24"><path d="M7 2v8a2 2 0 0 1-2 2v10H3V12a2 2 0 0 1-2-2V2h1.5v6h1V2h1.5v6h1V2H7zm11 0c2 0 3 2.5 3 6s-1 5-3 5v9h-2V2h2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10z" fill="currentColor"/></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24"><path d="M5 2h2v2H6v5a4 4 0 0 0 8 0V4h-1V2h2a1 1 0 0 1 1 1v6a6 6 0 0 1-5 5.9V16a4 4 0 0 0 8 0v-1.2a3 3 0 1 1 2 0V16a6 6 0 0 1-12 0v-1.1A6 6 0 0 1 4 9V3a1 1 0 0 1 1-1z" fill="currentColor"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><path d="M8 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm9 0a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM1 20c0-3.9 3.1-7 7-7s7 3.1 7 7v1H1v-1zm15.5 1v-1c0-2.2-.8-4.2-2.2-5.7A6 6 0 0 1 23 19.5V21h-6.5z" fill="currentColor"/></symbol>
+    <symbol id="i-hands" viewBox="0 0 24 24"><path d="M12 10.5S8 8 8 5.4C8 3.9 9.1 3 10.3 3c.8 0 1.4.4 1.7 1 .3-.6.9-1 1.7-1C14.9 3 16 3.9 16 5.4 16 8 12 10.5 12 10.5zM2 12h3l5 2.5c1 .5 1 2 0 2.5H7v1h4l6-3.5c1-.6 2.3 0 2.3 1.2 0 .5-.2.9-.6 1.2L12 22H2V12z" fill="currentColor"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path d="M8 3h11a2 2 0 0 1 2 2v11h-2V5H8V3zM4 7h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zm0 2v11h11V9H4z" fill="currentColor"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" fill="currentColor"/></symbol>
+  </svg>
+
+  <header class="topo">
+    <div class="container topo__inner">
+      <a href="#inicio" class="marca">
+        <img src="assets/img/logo.jpg" alt="Logo Mão Amiga" width="48" height="48">
+        <span><strong>Friendly Hand</strong><small>Mão Amiga</small></span>
+      </a>
+      <nav class="menu" id="menu">
+        <a href="#sobre" data-i18n="nav.sobre">Quem somos</a>
+        <a href="#africa" data-i18n="nav.africa">Guiné-Bissau</a>
+        <a href="#amazonia" data-i18n="nav.amazonia">Amazônia</a>
+        <a href="#campanhas" data-i18n="nav.campanhas">Campanhas</a>
+        <a href="#doe" class="btn btn--ouro" data-i18n="nav.doe">Doe agora</a>
+      </nav>
+      <div class="topo__acoes">
+        <div class="idioma" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="pt">PT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <button type="button" class="menu-toggle" aria-label="Menu" aria-controls="menu" aria-expanded="false">
+          <svg width="26" height="26"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <p class="hero__selo" data-i18n="hero.selo">Organização Internacional Sem Fins Lucrativos</p>
+        <h1 data-i18n="hero.titulo">Uma mão amiga para a <span>África</span> e a <span>Amazônia</span></h1>
+        <p class="hero__texto" data-i18n="hero.texto">Há mais de duas décadas levando esperança, educação, saúde e amor às populações mais necessitadas.</p>
+        <div class="hero__botoes">
+          <a href="#doe" class="btn btn--ouro" data-i18n="hero.doe">Quero ajudar</a>
+          <a href="#sobre" class="btn btn--vazado" data-i18n="hero.conheca">Conheça a missão</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao carta" id="sobre">
+      <div class="container carta__inner">
+        <div>
+          <p class="carta__saudacao" data-i18n="carta.saudacao">Querido amigo e amiga,</p>
+          <p data-i18n="carta.p1">Há mais de duas décadas, a Friendly Hand – Mão Amiga tem trabalhado para levar esperança, educação, saúde e amor às populações mais necessitadas da África e da Amazônia.</p>
+          <p class="carta__convite" data-i18n="carta.convite">Hoje, convidamos você a fazer parte desta missão.</p>
+          <p class="carta__assinatura">
+            <span data-i18n="carta.gratidao">Com gratidão,</span>
+            <strong>Pastor Silvino Radke</strong>
+            <small data-i18n="carta.cargo">Presidente – Friendly Hand (Mão Amiga)</small>
+          </p>
+        </div>
+        <ul class="numeros">
+          <li><strong>20+</strong><span data-i18n="num.anos">anos de missão</span></li>
+          <li><strong>~100</strong><span data-i18n="num.criancas">crianças na escola em Guiné-Bissau</span></li>
+          <li><strong>2</strong><span data-i18n="num.continentes">continentes: África e América do Sul</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao secao--clara" id="africa">
+      <div class="container">
+        <header class="secao__cabeca">
+          <p class="etiqueta"><span class="bandeira bandeira--gw" aria-hidden="true"></span> <span data-i18n="africa.etiqueta">Guiné-Bissau – África</span></p>
+          <h2 data-i18n="africa.titulo">Educação que transforma uma nação</h2>
+        </header>
+        <div class="duas-colunas">
+          <article class="cartao">
+            <img src="assets/img/escola.jpg" alt="" loading="lazy">
+            <div class="cartao__corpo">
+              <h3 data-i18n="africa.escola.titulo">Nossa escola</h3>
+              <p data-i18n="africa.escola.texto">Mantemos uma escola que atende cerca de 100 crianças, oferecendo gratuitamente:</p>
+              <ul class="lista">
+                <li data-i18n="africa.escola.i1">Material escolar</li>
+                <li data-i18n="africa.escola.i2">Uniformes</li>
+                <li data-i18n="africa.escola.i3">Merenda escolar</li>
+                <li data-i18n="africa.escola.i4">Apoio educacional e social</li>
+              </ul>
+            </div>
+          </article>
+          <article class="cartao">
+            <img src="assets/img/clinica.jpg" alt="" loading="lazy">
+            <div class="cartao__corpo">
+              <h3 data-i18n="africa.clinica.titulo">Um grande sonho: a Clínica Médica Comunitária</h3>
+              <p data-i18n="africa.clinica.texto">Recebemos um terreno em Guiné-Bissau e estamos iniciando a construção de uma Clínica Médica Comunitária, que funcionará como unidade de pronto atendimento para centenas de famílias que hoje têm acesso limitado aos cuidados de saúde.</p>
+              <span class="tag" data-i18n="africa.clinica.tag">Em construção</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao amazonia" id="amazonia">
+      <div class="container amazonia__inner">
+        <div class="amazonia__foto">
+          <img src="assets/img/barco.jpg" alt="Barco Missionário Mão Amiga 1" loading="lazy">
+        </div>
+        <div>
+          <p class="etiqueta etiqueta--clara"><svg width="20" height="20"><use href="#i-boat"/></svg> <span data-i18n="amazonia.etiqueta">Amazônia Brasileira</span></p>
+          <h2 data-i18n="amazonia.titulo">O Barco Missionário Mão Amiga 1</h2>
+          <p data-i18n="amazonia.texto">Levamos assistência humanitária às comunidades ribeirinhas da região amazônica. Muitas vivem em locais de difícil acesso e dependem da solidariedade de pessoas como você.</p>
+          <ul class="servicos">
+            <li data-i18n="amazonia.s1">Atendimento médico</li>
+            <li data-i18n="amazonia.s2">Atendimento odontológico</li>
+            <li data-i18n="amazonia.s3">Distribuição de medicamentos</li>
+            <li data-i18n="amazonia.s4">Entrega de cestas básicas</li>
+            <li data-i18n="amazonia.s5">Doação de roupas</li>
+            <li data-i18n="amazonia.s6">Assistência espiritual e social</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container video-bloco">
+        <video controls preload="none" playsinline poster="assets/img/video-capa.jpg">
+          <source src="assets/video/barco-mao-amiga.mp4" type="video/mp4">
+        </video>
+        <div>
+          <p class="etiqueta etiqueta--clara" data-i18n="video.etiqueta">Assista</p>
+          <h3 data-i18n="video.titulo">Conheça o nosso barco</h3>
+          <p data-i18n="video.texto">Veja o Barco Missionário Mão Amiga 1 navegando no Amazonas, as reformas que estamos fazendo e as conquistas que alcançamos juntos, como o consultório odontológico a bordo.</p>
+          <a href="#doe" class="btn btn--ouro" data-i18n="video.botao">Ajude a missão continuar</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="diferenca">
+      <div class="container">
+        <header class="secao__cabeca secao__cabeca--centro">
+          <p class="etiqueta"><svg width="18" height="18" class="vermelho"><use href="#i-heart"/></svg> <span data-i18n="ajuda.etiqueta">Sua ajuda faz a diferença</span></p>
+          <h2 data-i18n="ajuda.titulo">Para onde vai a sua doação</h2>
+        </header>
+        <ul class="ajuda">
+          <li><svg><use href="#i-school"/></svg><span data-i18n="ajuda.a1">Manter a escola das crianças em Guiné-Bissau</span></li>
+          <li><svg><use href="#i-clinic"/></svg><span data-i18n="ajuda.a2">Construir a Clínica Médica Comunitária</span></li>
+          <li><svg><use href="#i-steth"/></svg><span data-i18n="ajuda.a3">Levar atendimento médico e odontológico aos ribeirinhos</span></li>
+          <li><svg><use href="#i-food"/></svg><span data-i18n="ajuda.a4">Fornecer merenda, uniformes e material escolar</span></li>
+          <li><svg><use href="#i-people"/></svg><span data-i18n="ajuda.a5">Sustentar as viagens missionárias na Amazônia</span></li>
+          <li><svg><use href="#i-hands"/></svg><span data-i18n="ajuda.a6">Distribuir alimentos e medicamentos para famílias necessitadas</span></li>
+        </ul>
+        <p class="ajuda__frase" data-i18n="ajuda.frase">Não importa o valor. Cada contribuição se transforma em esperança para alguém.</p>
+      </div>
+    </section>
+
+    <section class="secao secao--clara" id="campanhas">
+      <div class="container">
+        <header class="secao__cabeca">
+          <p class="etiqueta" data-i18n="campanhas.etiqueta">Campanhas e mensagens</p>
+          <h2 data-i18n="campanhas.titulo">Acompanhe o que estamos fazendo</h2>
+        </header>
+        <div class="campanhas" id="lista-campanhas"></div>
+      </div>
+    </section>
+
+    <section class="secao doe" id="doe">
+      <div class="container">
+        <header class="secao__cabeca secao__cabeca--centro">
+          <p class="etiqueta etiqueta--clara" data-i18n="doe.etiqueta">Como contribuir</p>
+          <h2 data-i18n="doe.titulo">Faça parte desta missão</h2>
+        </header>
+        <div class="doe__opcoes">
+          <article class="doe__cartao">
+            <span class="doe__selo">PIX</span>
+            <p class="doe__nome">Instituto Mão Amiga</p>
+            <p><span data-i18n="doe.cnpj">CNPJ</span>: 04.075.462/0001-29</p>
+            <p class="doe__chave"><span data-i18n="doe.chave">Chave PIX</span>: <strong>04.075.462/0001-29</strong></p>
+            <button type="button" class="btn btn--ouro copiar" data-copiar="04075462000129">
+              <svg width="18" height="18"><use href="#i-copy"/></svg> <span data-i18n="doe.copiarPix">Copiar chave PIX</span>
+            </button>
+            <p class="doe__nota" data-i18n="doe.notaPix">Para doações no Brasil.</p>
+          </article>
+          <article class="doe__cartao">
+            <span class="doe__selo doe__selo--zelle">ZELLE</span>
+            <p class="doe__nome">Friendly Hand International</p>
+            <p class="doe__chave"><strong>friendlyhandint@yahoo.com</strong></p>
+            <button type="button" class="btn btn--ouro copiar" data-copiar="friendlyhandint@yahoo.com">
+              <svg width="18" height="18"><use href="#i-copy"/></svg> <span data-i18n="doe.copiarZelle">Copiar e-mail Zelle</span>
+            </button>
+            <p class="doe__nota" data-i18n="doe.notaZelle">Para doações dos Estados Unidos.</p>
+          </article>
+        </div>
+        <blockquote class="versiculo">
+          <p data-i18n="verso.texto">“Quem se compadece do pobre empresta ao Senhor, que lhe retribuirá o seu benefício.”</p>
+          <cite data-i18n="verso.ref">Provérbios 19:17</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__inner">
+      <div class="marca marca--rodape">
+        <img src="assets/img/logo.jpg" alt="" width="44" height="44">
+        <span><strong>Friendly Hand – Mão Amiga</strong><small data-i18n="rodape.slogan">Levando esperança à África e à Amazônia.</small></span>
+      </div>
+      <p class="rodape__info">
+        Instituto Mão Amiga · CNPJ 04.075.462/0001-29<br>
+        <a href="mailto:friendlyhandint@yahoo.com">friendlyhandint@yahoo.com</a>
+      </p>
+      <p class="rodape__copy">© <span id="ano"></span> Friendly Hand – Mão Amiga</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox__fechar" aria-label="Fechar">×</button>
+    <img src="" alt="">
+  </div>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/conteudos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
