@@ -1,5 +1,6 @@
 # Arquivos originais recebidos pelo WhatsApp (as versões usadas no site ficam em assets/)
 WhatsApp*
 
-# Configurações locais do editor
+# Configurações locais do editor e anotações do projeto (não vão para o site público)
 .claude/
+CLAUDE.md
